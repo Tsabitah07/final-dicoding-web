@@ -1,0 +1,890 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*RESPONSIVE HP*/
+
+/*HEADER*/
+@media screen and (min-width: 400px){
+    body{
+        background: #895ab8;
+        color: white;
+    }
+
+    header{
+        position: absolute;
+        top: 0;
+        z-index: 5;
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        background: rebeccapurple;
+        color: white;
+        justify-content: space-between;
+        font-size: medium;
+    }
+
+    .title{
+        display: flex;
+        width: 65%;
+        align-items: center;
+    }
+
+    .title img{
+        width: 10%;
+        padding: 15px;
+    }
+
+    .title a{
+        color: white;
+        text-decoration: none;
+        font-size: xx-large;
+    }
+
+    .navigation{
+        visibility: hidden;
+    }
+
+    /*HERO*/
+    .hero-component{
+        width: 100%;
+        margin-top: 85px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-hero{
+        width: 85%;
+    }
+
+    .data-hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .data-hero h2{
+        text-align: center;
+        font-size: xx-large;
+        margin-bottom: 10px;
+    }
+
+    .data-hero p{
+        max-width: 80%;
+        text-align: justify;
+        font-size: medium;
+    }
+
+    /*PROFILE*/
+    .biodata-component{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: fit-content;
+        margin-top: 20px;
+    }
+
+    .data-profile{
+        color: white;
+        width: 85%;
+        height: 85%;
+        padding: 20px 15px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(102, 51, 153, 80%);
+        border-radius: 20px;
+    }
+
+    .data-profile h3{
+        visibility: hidden;
+    }
+
+    .list-data{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        justify-content: space-evenly;
+    }
+
+    .list-data-profile{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .list-1{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+        gap: 20px;
+    }
+
+    .list-1 p{
+        font-size: x-large;
+    }
+
+    .list-2{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .list-2 .rarity i{
+        color: gold;
+        width: 25px;
+        height: 25px;
+        gap: 0;
+    }
+
+    .list-2 .path{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        font-size: large;
+    }
+
+    .list-2 .element{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        font-size: large;
+        margin-bottom: 5px;
+    }
+
+    .list-2 p{
+        font-size: x-large;
+    }
+
+    .list-1-2{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+        gap: 28px;
+    }
+
+    .list-1-2 p{
+        font-size: x-large;
+    }
+
+    .list-2-2{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .list-2-2 .rarity i{
+        color: gold;
+        width: 25px;
+        height: 25px;
+        gap: 0;
+    }
+
+    .list-2-2 .path{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        font-size: large;
+    }
+
+    .list-2-2 .element{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        font-size: large;
+        margin-bottom: 5px;
+    }
+
+    .list-2-2 p{
+        font-size: x-large;
+    }
+
+    /**/
+    .lightcone-component{
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-lightcone{
+        display: flex;
+        justify-content: center;
+        padding: 15px 0px;
+    }
+
+    .data-lightcone{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .data-lightcone h3{
+        width: 90%;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .data-lightcone h4{
+        width: 50%;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .data-lightcone p{
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        margin: 0 0 15px 0;
+        text-indent: 5%;
+        font-size: small;
+    }
+
+    .stats-lightcone{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stats-lightcone h4{
+        margin: 10px;
+        width: 80%;
+        text-align: center;
+        font-size: x-large;
+    }
+
+    .stats-lv{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stats-value{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        margin: 5px 0px;
+    }
+
+    .stats-lv p{
+        font-size: x-large;
+        text-indent: 0;
+    }
+
+    /*EIDOLONS*/
+    .eidolon-component{
+        background-color: rgb(102, 51, 153, 80%);
+        color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .eidolon-component h3{
+        font-size: xx-large;
+    }
+
+    .eidolons{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .eidolons-desc{
+        width: 75%;
+    }
+
+    .eidolons-desc h4{
+        font-size: large;
+    }
+
+    /*RELICS*/
+    .relic-component{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-bottom: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .relic-component h3{
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .list-set{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: start;
+    }
+
+    .set-relic{
+        width: 27%;
+        margin-top: 20px;
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+        color: white;
+        background-color: rgb(102, 51, 153, 80%);
+        border-radius: 20px;
+    }
+
+    .set-relic h4{
+        font-size: large;
+    }
+
+    .relics{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        gap: 15px;
+    }
+
+    .relics img{
+        width: 70px;
+    }
+
+    .relics p{
+        font-size: medium;
+    }
+
+    /*TEAM SETUP*/
+    .team-setup-component{
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .team-setup-component h3{
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .list-team{
+        margin-bottom: 25px;
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .data-team{
+        display: flex;
+        width: 85%;
+        padding: 15px 0;
+        border-radius: 20px;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(102, 51, 153, 80%);
+    }
+
+    .team p{
+        text-align: center;
+        color: white;
+    }
+}
+
+
+
+/*RESPONSIVE LAPTOP*/
+@media screen and (min-width: 1020px){
+    body{
+        background: linear-gradient(to bottom right, #0a0766, #520e8a, #2d0766, #0a0766, #520e8a, #2d0766, #0a0766);
+        height: 100vh;
+    }
+
+    header{
+        position: absolute;
+        top: 0;
+        z-index: 5;
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        background: #8225b8;
+        color: white;
+        justify-content: space-between;
+        font-size: large;
+    }
+
+    .title{
+        max-height: 35px;
+        display: flex;
+        width: 50%;
+        padding: 15px 20px;
+        align-items: center;
+    }
+
+    .title img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .title a{
+        color: white;
+        text-decoration: none;
+        padding-left: 10px;
+        font-size: large;
+    }
+
+    /*NAVIGATION*/
+    .navigation{
+        visibility: visible;
+        display: flex;
+        width: 35%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+    }
+
+    .navigation a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .navigation a:hover{
+        color: white;
+        font-weight: bold;
+    }
+
+    .navigation-hp{
+        visibility: hidden;
+    }
+
+    /*HERO*/
+    .hero-component{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: fit-content;
+        margin-top: 60px;
+    }
+
+    .img-hero{
+        width: 45%;
+    }
+
+    .data-hero{
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        color: white;
+        background-color: rgb(36, 36, 36, 45%);
+        border-radius: 20px;
+    }
+
+    .data-hero h2{
+        font-size: xxx-large;
+    }
+
+    .data-hero p{
+        max-width: 75%;
+        margin-top: 15px;
+        font-size: large;
+        text-align: justify;
+    }
+
+    /*PROFILE*/
+    .biodata-component{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: fit-content;
+        margin-top: 20px;
+    }
+
+    .data-profile{
+        color: white;
+        width: 80%;
+        height: 85%;
+        padding: 30px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(36, 36, 36, 45%);
+        border-radius: 20px;
+    }
+
+    .data-profile h3{
+        visibility: visible;
+        font-size: xx-large;
+        margin-bottom: 25px;
+    }
+
+    .list-data{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .list-data-profile{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .list-1{
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+        gap: 25px;
+    }
+
+    .list-1 p{
+        font-size: large;
+    }
+
+    .list-2{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .list-2 .rarity i{
+        color: gold;
+        width: 25px;
+        height: 25px;
+        gap: 0;
+    }
+
+    .list-2 .path{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        font-size: large;
+    }
+
+    .list-2 .element{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        font-size: large;
+        margin-bottom: 5px;
+    }
+
+    .list-2 p{
+        font-size: large;
+    }
+
+    .list-1-2{
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+        gap: 25px;
+    }
+
+    .list-1-2 p{
+        font-size: large;
+    }
+
+    .list-2-2{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .list-2-2 .rarity i{
+        color: gold;
+        width: 25px;
+        height: 25px;
+        gap: 0;
+    }
+
+    .list-2-2 .path{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        font-size: large;
+    }
+
+    .list-2-2 .element{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        font-size: large;
+        margin-bottom: 5px;
+    }
+
+    .list-2-2 p{
+        font-size: large;
+    }
+
+    /*.img-profile{*/
+    /*    visibility: visible;*/
+    /*    display: flex;*/
+    /*    justify-content: center;*/
+    /*    max-height: 85%;*/
+    /*    width: 35vw;*/
+    /*}*/
+
+    /*.img-profile img{*/
+    /*    width: 85%;*/
+    /*}*/
+
+    /*LIGHTCONE*/
+    .lightcone-component{
+        margin-top: 25px;
+        margin-bottom: 20px;
+        width: 100%;
+        height: 75%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5%;
+    }
+
+    .img-lightcone{
+        width: 28%;
+    }
+
+    .data-lightcone{
+        padding: 20px;
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap: 5px;
+        background-color: rgb(36, 36, 36, 45%);
+        border-radius: 20px;
+        color: white;
+    }
+
+    .data-lightcone h3{
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .data-lightcone h4{
+        text-align: center;
+        font-size: large;
+    }
+
+    .stats-lightcone{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .stats-lightcone h4{
+        text-align: start;
+        margin: 5px;
+    }
+
+    .stats-lv{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 0 10px 0;
+    }
+
+    .stats-value{
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0 5px 0;
+    }
+
+    .data-lightcone p{
+        text-align: justify;
+        font-size: large;
+        margin: 20px 0 0 0;
+        width: 90%;
+        text-indent: 0;
+    }
+
+    /*EIDOLONS*/
+    .eidolon-component{
+        background-color: rgb(36, 36, 36, 45%);
+        color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .eidolon-component h3{
+        font-size: xx-large;
+    }
+
+    .eidolons{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .eidolons-desc{
+        width: 75%;
+    }
+
+    .eidolons-desc h4{
+        font-size: large;
+    }
+
+    /*RELICS*/
+    .relic-component{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-bottom: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .relic-component h3{
+        text-align: center;
+        font-size: xx-large;
+        color: white;
+    }
+
+    .list-set{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: start;
+    }
+
+    .set-relic{
+        width: 25%;
+        margin-top: 20px;
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        color: white;
+        background-color: rgb(36, 36, 36, 45%);
+        border-radius: 20px;
+    }
+
+    .set-relic h4{
+        font-size: large;
+    }
+
+    .relics{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        gap: 15px;
+    }
+
+    .relics img{
+        width: 20%;
+    }
+
+    .relics p{
+        font-size: large;
+    }
+
+    /*TEAM SETUP*/
+    .team-setup-component{
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .team-setup-component h3{
+        text-align: center;
+        color: white;
+        font-size: xx-large;
+    }
+
+    .list-team{
+        margin-bottom: 25px;
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .data-team{
+        display: flex;
+        width: 85%;
+        padding: 15px 0;
+        border-radius: 20px;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(36, 36, 36, 45%);
+    }
+
+    .team p{
+        text-align: center;
+        color: white;
+    }
+
+    /*FOOTER*/
+    .footer{
+        margin-top: 10px;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #8225b8;
+    }
+
+    .footer p{
+        color: white;
+    }
+}
